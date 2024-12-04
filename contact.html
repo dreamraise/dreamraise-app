@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>DreamRaise</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- font awesome style -->
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section" >
+      <div class="header_top">
+        <div class="container-fluid">
+          <div class="contact_nav">
+            <a href="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Call : +01 123455678990
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span>
+                Email : demo@gmail.com
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="index.html">
+              <span style="text-transform: none;">
+                DreamRise IT
+              </span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=""> </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+              <ul class="navbar-nav ">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"> About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html">Services</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+
+  <!-- contact section -->
+
+  <section class="contact_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Contact Us
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <!-- <form action="">
+            <div>
+              <input type="text" placeholder="Name" />
+            </div>
+            <div>
+              <input type="text" placeholder="Phone Number" />
+            </div>
+            <div>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div>
+              <input type="text" class="message-box" placeholder="Message" />
+            </div>
+            <div class="d-flex ">
+              <button >
+                SEND
+              </button>
+            </div>
+          </form> -->
+          <form id="contactForm">
+            <div>
+              <input type="text" name="user_name" placeholder="Name" style="color: black;"  />
+            </div>
+            <div>
+              <input type="text" name="contact_number" placeholder="Phone Number" style="color: black;" pattern="\d{10}" title="Please enter exactly 10 digits."required />
+            </div>
+            <div>
+              <input type="email" name="user_email" placeholder="Email" style="color: black;" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" 
+              title="Please enter a valid email address."  required />
+
+            </div>
+            <div>
+              <!-- <textarea name="user_message" class="message-box" placeholder="Message" required></textarea> -->
+              <input type="text" name="message" class="message-box" placeholder="Message" style="color: black;"  required/>
+
+            </div>
+            <div class="d-flex">
+              <button type="submit">
+                SEND
+              </button>
+            </div>
+            <div>
+              <div id="formMessage" style="margin-top: 15px; font-size: 16px; display: none;"></div>
+
+            </div>
+          </form>
+          
+        </div>
+        <div class="col-md-6">
+          <div class="map_container">
+            <div class="map">
+              <div id="googleMap" style="width:100%;height:100%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end contact section -->
+
+
+  <!-- info section -->
+  <section class="info_section ">
+    <div class="container">
+      <h4>
+        Get In Touch
+      </h4>
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <div class="info_items">
+            <div class="row">
+              <div class="col-md-4">
+                <a href="">
+                  <div class="item ">
+                    <div class="img-box ">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </div>
+                    <p>
+                      Lorem Ipsum is simply dummy text
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a href="">
+                  <div class="item ">
+                    <div class="img-box ">
+                      <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                    <p>
+                      +02 1234567890
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a href="">
+                  <div class="item ">
+                    <div class="img-box">
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                    <p>
+                      demo@gmail.com
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="social-box">
+      <h4>
+        Follow Us
+      </h4>
+      <div class="box">
+        <a href="">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-youtube" aria-hidden="true"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayDateYear"></span> All Rights Reserved By
+        <a href="https://html.design/">Free Html Templates</a>
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <script src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+  <!-- End Google Map -->
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<!-- <script>
+  // Initialize EmailJS
+  emailjs.init("2Pxtm-xMhOqzQLmc7"); // Replace with your EmailJS public key (e.g., `aBcXyz123`)
+
+  // Function to send email
+  function sendEmail(event) {
+    event.preventDefault(); // Prevent form submission
+
+    // Get form values
+    const form = document.querySelector("#contactForm");
+    const formData = new FormData(form);
+
+    // Convert form data to an object
+    const formValues = Object.fromEntries(formData);
+
+    // Send email using EmailJS
+    emailjs
+      .send("service_gq9i8s8", "template_o9gde0w", formValues) // Replace with your Service ID and Template ID
+      .then(
+        (response) => {
+          alert("Email sent successfully!");
+          console.log("SUCCESS!", response.status, response.text);
+        },
+        (error) => {
+          alert("Failed to send email. Please try again.");
+          console.log("FAILED...", error);
+        }
+      );
+  }
+
+  // Attach the `sendEmail` function to the form submit event
+  document.querySelector("#contactForm").addEventListener("submit", sendEmail);
+</script> -->
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "2Pxtm-xMhOqzQLmc7",
+            });
+        })();
+    </script>
+<script>
+
+  // Function to send email
+  function sendEmail(event) {
+    event.preventDefault(); // Prevent the form from submitting the default way
+
+    // Get form values
+    const form = document.querySelector("#contactForm");
+    const formData = new FormData(form);
+
+    const emailParams = {
+      user_name: form.user_name.value,
+      contact_number: form.contact_number.value,
+      user_email: form.user_email.value,
+      message: form.message.value,
+    };
+
+    // Convert form data to an object
+    // const emailParams = Object.fromEntries(formData);
+
+
+    
+    // Send email using EmailJS
+    emailjs
+      .send("service_gq9i8s8", "template_o9gde0w", {
+        
+        to_email: "awsfreerd@yahoo.com", 
+        message:emailParams
+      }) // Replace with your Service ID and Template ID
+      .then(
+        function (response) {
+          // alert("Email sent successfully!");
+          formMessage.style.color = "green";
+        formMessage.style.display = "block";
+        formMessage.textContent = "Email sent successfully!";
+        setTimeout(() => {
+          formMessage.style.display = "none";
+        }, 5000);
+
+         form.reset();
+          console.log("SUCCESS!", response.status, response.text, response);
+        },
+        function (error) {
+          // alert("Failed to send email. Please try again.");
+          formMessage.style.color = "red";
+        formMessage.style.display = "block";
+        formMessage.textContent = "Failed to send email. Please try again.";
+        setTimeout(() => {
+          formMessage.style.display = "none";
+        }, 5000);
+
+        form.reset();
+
+          console.log("FAILED...", error);
+        }
+      );
+  }
+
+  // Attach the `sendEmail` function to the form submit event
+  document.querySelector("#contactForm").addEventListener("submit", sendEmail);
+</script>
+
+</body>
+
+</html>
